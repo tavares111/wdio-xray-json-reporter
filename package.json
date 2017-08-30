@@ -1,7 +1,7 @@
 {
-  "name": "wdio-json-reporter",
-  "version": "0.2.1",
-  "description": "A WebdriverIO plugin. Report results in json format.",
+  "name": "wdio-xray-json-reporter",
+  "version": "0.0.1",
+  "description": "A WebdriverIO plugin. Report results in xray json format.",
   "main": "build/reporter.js",
   "scripts": {
     "test": "grunt",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fijijavis/wdio-json-reporter.git"
+    "url": "git+https://github.com/cnatis/wdio-json-reporter.git"
   },
   "directories": {
     "lib": "./lib"
@@ -26,12 +26,13 @@
   "author": "Jim Davis <jim.davis@kroger.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fijijavis/wdio-json-reporter/issues"
+    "url": "https://github.com/cnatis/wdio-json-reporter/issues"
   },
-  "homepage": "https://github.com/fijijavis/wdio-json-reporter#readme",
+  "homepage": "https://github.com/cnatis/wdio-json-reporter#readme",
   "dependencies": {
     "babel-runtime": "^5.8.25",
     "mkdirp": "^0.5.1",
+    "moment": "^2.18.1",
     "uuid": "^2.0.2"
   },
   "devDependencies": {
@@ -56,6 +57,7 @@
     "load-grunt-tasks": "^3.2.0"
   },
   "contributors": [
-    "Jim Davis"
+    "Jim Davis",
+    "Christian Natis"
   ]
 }
