@@ -74,7 +74,14 @@ module.exports = {
 };
 ```
 
-Xray and Jira specific options
+Xray and Jira specific information:
+The feature file names must match the following format to ensure the test ids match in the output match the ids in Jira.
+
+```
+ABC-123.feature -> Maps to Jira test issue ABC-123
+```
+
+Xray and Jira specific options:
 
 ```js
 reporterOptions: {
