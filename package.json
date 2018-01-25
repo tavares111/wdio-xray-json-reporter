@@ -1,0 +1,96 @@
+{
+  "_from": "wdio-xray-json-reporter@0.0.1",
+  "_id": "wdio-xray-json-reporter@0.0.1",
+  "_inBundle": false,
+  "_integrity": "sha1-9AHhwK9s1FHE5z5SVLtrHq4gYt0=",
+  "_location": "/wdio-xray-json-reporter",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "wdio-xray-json-reporter@0.0.1",
+    "name": "wdio-xray-json-reporter",
+    "escapedName": "wdio-xray-json-reporter",
+    "rawSpec": "0.0.1",
+    "saveSpec": null,
+    "fetchSpec": "0.0.1"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "http://npm.alterdata-cirrus-cluster.net/wdio-xray-json-reporter/-/wdio-xray-json-reporter-0.0.1.tgz",
+  "_shasum": "f401e1c0af6cd451c4e73e5254bb6b1eae2062dd",
+  "_spec": "wdio-xray-json-reporter@0.0.1",
+  "_where": "/home/local/ALTERDATA/tavares.qld.cir/Documentos/Exemplos/Telemetria-cucumber",
+  "author": {
+    "name": "Jim Davis",
+    "email": "jim.davis@kroger.com"
+  },
+  "bugs": {
+    "url": "https://github.com/cnatis/wdio-json-reporter/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Jim Davis"
+    },
+    {
+      "name": "Christian Natis"
+    }
+  ],
+  "dependencies": {
+    "babel-runtime": "^5.8.25",
+    "mkdirp": "^0.5.1",
+    "moment": "^2.18.1",
+    "uuid": "^2.0.2"
+  },
+  "deprecated": false,
+  "description": "A WebdriverIO plugin. Report results in xray json format.",
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "babel-core": "^5.8.23",
+    "babel-eslint": "^4.1.7",
+    "babel-istanbul": "^0.4.1",
+    "babel-plugin-rewire": "^0.1.22",
+    "codeclimate-test-reporter": "^0.1.1",
+    "eslint": "^1.4.1",
+    "eslint-config-standard": "^4.3.2",
+    "eslint-plugin-standard": "^1.3.0",
+    "grunt": "^0.4.5",
+    "grunt-babel": "^5.0.1",
+    "grunt-bump": "^0.6.0",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-eslint": "^17.1.0",
+    "grunt-mocha-istanbul": "^3.0.1",
+    "grunt-npm": "0.0.2",
+    "load-grunt-tasks": "^3.2.0"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "homepage": "https://github.com/tavares111/wdio-xray-json-reporter#readme",
+  "keywords": [
+    "json",
+    "reporter",
+    "webdriverio",
+    "wdio",
+    "wdio-plugin",
+    "wdio-reporter"
+  ],
+  "license": "MIT",
+  "main": "build/reporter.js",
+  "name": "wdio-xray-json-reporter",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tavares111/wdio-xray-json-reporter.git"
+  },
+  "scripts": {
+    "build": "grunt build",
+    "prepublish": "npm prune && npm run build",
+    "test": "grunt"
+  },
+  "version": "0.0.2"
+}
